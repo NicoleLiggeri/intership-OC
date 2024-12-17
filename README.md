@@ -53,3 +53,45 @@ I have found some classification systems that seem to be good starting points fo
 
 
 </details>
+
+## Day 6 - 7 (17 - 18/12/2024) - 10h
+
+Yesterday, I picked up the thread of my project again and downloaded the categories from the Library of Congress to finally work on the alignment. The primary categories total **21**, with a significant number of first- and second-level subclasses. The subclasses are too numerous to manage in a single Excel file, so after several attempts, I decided to handle the potential alignment of subclasses separately.
+
+I decided to begin the alignment with **ERIH-PLUS**. I changed my approach several times but eventually settled on organizing a workflow based on the following premises:
+
+1. My goal is to map the categories of ERIH-PLUS (22 categories with around 170 subcategories) to those of the Library of Congress (LOC).  
+   
+2. To establish a convergence, only two scenarios can occur:
+    - The ERIH-PLUS category covers a **smaller section** of the same area of competence compared to the LOC category, such that `A ⊆ A'`.
+    - The two categories **coincide exactly**, such that `A = A'`.
+
+3. **Partially Overlapping Categories**:  
+   If the two categories share only some areas of interest, it’s useful to study the ERIH-PLUS subcategories separately to align them with the base categories of LOC that fits best (`A ∩ A'`).
+
+4. **Empirical Test**:  
+   In cases of difficulty interpreting the categories, an empirical test is always valid: examine how the same journal item or article is cataloged in the two systems can help me.
+
+Thus, moving forward with the workflow:
+
+- I considered each **ERIH-PLUS class**, selecting the closest match in LOC.  
+- I evaluated the **overlap** between the two classes, recording all compatible categories and subcategories.  
+- In case of uncertainty, I planned to check how different journals were recorded in both databases — *or so I thought I would...*
+
+### Results and Observations
+
+I then produced a new file titled "LOC Alignment," which lists the 21 Library of Congress categories in the first column and records all ERIH-PLUS convergences (both classes and subclasses) in the second column. I enriched the ERIH-PLUS sheet by including the LOC subclasses that helped me make more precise matches. I used different colors to distinguish between included and non-included categories. 
+
+At this point, I managed to cover about **half of the catalog**.  
+An interesting case was the ERIH-PLUS category “History,” which, despite being fundamental, could not fit into any of the three LOC categories created for history. This was because it exceeded the scope of both “History of Americans” and “World History and History of Europe, Asia, Africa, Australia, New Zealand, etc.”
+
+
+For all problematic categories, I planned to verify the databases. By directly using the links in the ERIH-PLUS category list—which lead to filtered database queries—I found only academic papers, even for various categories. None of the tests I conducted found matches in the LOC database. At this point, I decided to download the list of journals approved by ERIH-PLUS, which is easily available on their website. The journals are recorded with their titles (both international and local), ISSN, and ERIH-PLUS category.
+
+It was here that **I discovered that the categories listed in the CSV file do not correspond to those I had been working on for hours**.  
+
+Did I waste hours of work?
+It’s more likely that there are different classifications depending on whether one is dealing with an article or a journal.  
+
+There will be time tomorrow to explore this further.
+

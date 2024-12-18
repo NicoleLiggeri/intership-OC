@@ -110,5 +110,5 @@ These categories can be aligned - again, using the approved journal list - with 
 
 Next, I looked for a rough alignment with the **Library of Congress classification**, but the results were unsatisfactory. The lack of subcategories makes it difficult to compartmentalize the areas effectively.
 
-Finally, I’ll update the Excel file I’ve been working on so far.
+I updated on github the Excel file I’ve been working on so far.
 

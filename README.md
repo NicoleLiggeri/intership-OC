@@ -54,7 +54,7 @@ I have found some classification systems that seem to be good starting points fo
 
 </details>
 
-## Day 6 - 7 (17 - 18/12/2024) - 10h
+## Day 6 - 7 (16 - 17/12/2024) - 10h
 
 Yesterday, I picked up the thread of my project again and downloaded the categories from the Library of Congress to finally work on the alignment. The primary categories total **21**, with a significant number of first- and second-level subclasses. The subclasses are too numerous to manage in a single Excel file, so after several attempts, I decided to handle the potential alignment of subclasses separately.
 
@@ -94,4 +94,20 @@ Did I waste hours of work?
 It’s more likely that there are different classifications depending on whether one is dealing with an article or a journal.  
 
 There will be time tomorrow to explore this further.
+
+
+## Day 8 (18/12/2024) - 4h
+
+It turns out that yesterday’s work cannot be used. What I worked on was not the official ERIH-PLUS list but the ERIH-PLUS list provided by Dimensions.
+
+> "Classification systems in ERIH PLUS by Dimensions are automated emulations of standard classification systems used around the world, based on machine learning guided by topic experts. Thus, these provide an accurate representation of the classifications, labelling all fitting documents in ERIH PLUS by Dimensions automatically. Categories can be used in conjunction with keyword and abstract searches, or other filters, making searches through ERIH PLUS by Dimensions extremely simple and effective."
+> You acknowledge that Dimensions is protected by copyright and other proprietary rights, which we and our licensors will retain. You will abide by all relevant copyright notices, usage restrictions and other additional licensing terms, including those on the acknowledgements page, and agree that any unauthorized use will result in the automatic termination of any rights granted to you. 
+
+So, what are the real ERIH-PLUS categories? By digging through the official website, there appears to be no formal classification. However, one can infer the categories from the **approved journals list** published on the site. This results in **30 categories** without any subcategories.
+
+These categories can be aligned - again, using the approved journal list - with another classification system: the **OECD-Frascati** (DOI: [10.1787/9789264239012-en](http://dx.doi.org/10.1787/9789264239012-en))(see page 59). Interestingly, I found an alignment between this schema and the **Web of Science** provided by InCites ([link to source](https://incites.zendesk.com/hc/en-gb/articles/22516984338321-OECD-Category-Schema#h_01HPJA60JPGFFFZAD6EAZGWB3B)). There are other alignments available between different schemas and the Web of Science.
+
+Next, I looked for a rough alignment with the **Library of Congress classification**, but the results were unsatisfactory. The lack of subcategories makes it difficult to compartmentalize the areas effectively.
+
+Finally, I’ll update the Excel file I’ve been working on so far.
 

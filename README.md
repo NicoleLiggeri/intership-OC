@@ -108,7 +108,26 @@ So, what are the real ERIH-PLUS categories? By digging through the official webs
 
 These categories can be aligned - again, using the approved journal list - with another classification system: the **OECD-Frascati** (DOI: [10.1787/9789264239012-en](http://dx.doi.org/10.1787/9789264239012-en))(see page 59). Interestingly, I found an alignment between this schema and the **Web of Science** provided by InCites ([link to source](https://incites.zendesk.com/hc/en-gb/articles/22516984338321-OECD-Category-Schema#h_01HPJA60JPGFFFZAD6EAZGWB3B)). There are other alignments available between different schemas and the Web of Science.
 
-Next, I looked for a rough alignment with the **Library of Congress classification**, but the results were unsatisfactory. The lack of subcategories makes it difficult to compartmentalize the areas effectively.
+Next, I looked for a rough alignment with the **Library of Congress classification**(LoCC), but the results were unsatisfactory. The lack of subcategories makes it difficult to compartmentalize the areas effectively.
 
 I updated on github the Excel file I’ve been working on so far.
+
+
+## Day 9-10 (26-27/12/2024) - 8h
+
+Today, I worked a bit slowly on PubMed before deciding to change strategy. PubMed, being an aggregator of specialized articles, has a much finer granularity in scientific fields compared to LoCC. Moreover, finding matches for journals in PubMed with the Library of Congress classification is less straightforward than I anticipated. I therefore decided to temporarily set aside this alignment to explore other options.  
+
+After a brief moment of satisfaction in remembering that **DOJA** uses the LoCC to catalog Open Access journals—and can thus be useful to observe how the classification is practically applied—I focused on the **ERA (Excellence in Research for Australia)** lists. ERA journal lists are designed to support Australia's national research evaluation framework, and I spent considerable time searching for the 2023 list, which appears to be used by Dimensions. Online, there’s a search engine that makes the list accessible ([link to source](https://online.library.uitm.edu.my/era/)), but there doesn’t seem to be any supporting file, nor could I find the resource directly on the Australian Government's website.  
+
+For this reason, I gave up and instead found the 2018 version with approximately 25,000 journals (I’ve added the file to the repository). The list records journals and assigns one or more codes related to fields of study using the **ANZSRC 2008 FoR**. The new 2023 list likely uses ANZSRC 2020 FoR, which is why the website features a mapping between the two ANZSRC versions (ANZSRC 2020 was what I mistakenly thought was ERIH-PLUS in recent days, wasting time—though perhaps I’ve recovered it now?).  
+
+Since I have the mapping between the 2008 and 2020 versions and have largely (though not entirely) aligned the 2020 version with the Library of Congress, I moved on to work on the **Norwegian registers** ([link to source](https://kanalregister.hkdir.no/)), which are also included in Dimensions.  
+
+>The Norwegian register, officially the "Norwegian Register for Scientific Journals, Series and Publishers," is jointly operated by the Norwegian Centre for Research Data (NSD) and the National Board of Scholarly Publishing (NPU). The list identifies which scientific publications are recognized in the weighted funding model and includes around 30,000 source titles. The Norwegian register divides journals and series meeting scientific quality criteria into Level 1 and Level 2, where Level 2 is superior to Level 1. These criteria include a valid ISSN, a scientific editorial board, and a peer-review process. Titles not meeting these criteria are classified as Level 0.
+
+I found a downloadable version of the dataset ([link to source](https://archive.org/details/norwegian_register_journals-2024-06-04)), but there’s also a resource for simple and efficient searches ([link to source](https://npi.hkdir.no/fagfeltoversikt)).  
+
+The Norwegian register has its own labels for defining scientific fields. Therefore, I carried out a more systematic and “empirical” alignment between the **DOJA** categories (and thus LoCC) and **ERA 2018** (and thus ANZSRC 2008 FoR). The register records which of its journals are present in DOJA, so my searches were much more effective.  
+
+I am gradually making progress with this alignment. The progress has been saved in the file in the repository.
 

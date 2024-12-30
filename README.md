@@ -136,3 +136,7 @@ The Norwegian register has its own labels for defining scientific fields. Theref
 
 I am gradually making progress with this alignment. The progress has been saved in the file in the repository.
 
+## Day 11 (30/12/2024) - 3h
+
+Not much to report for today. I completed yesterday's work and searched through the datasets for matches to enable reliable alignment (Norwegian Register - DOJA - ERA 2018). It was fairly tedious work—I could have created a script to automate it and probably saved about an hour. Tomorrow, I'll take a more "big-picture" look to draw general conclusions and fill out the alignment sheet. 
+I uploaded the updated file to the GitHub folder.

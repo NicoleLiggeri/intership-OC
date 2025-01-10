@@ -140,3 +140,8 @@ I am gradually making progress with this alignment. The progress has been saved 
 
 Not much to report for today. I completed yesterday's work and searched through the datasets for matches to enable reliable alignment (Norwegian Register - DOJA - ERA 2018). It was fairly tedious work—I could have created a script to automate it and probably saved about an hour. Tomorrow, I'll take a more "big-picture" look to draw general conclusions and fill out the alignment sheet. 
 I uploaded the updated file to the GitHub folder.
+
+## Day 11 (9/12/2024) - 5h
+I aligned the Nature Index journals with the Library of Congress Classification (LoCC). The Nature Index organizes journals into approximately 80 categories, and article-level topics are decided using an AI system that factors in parameters like metadata and citations. This AI-driven classification is open source for 12 months but doesn’t allow downloads, limiting long-term or detailed topic-level use.
+
+Many Nature Index categories correspond directly to LoCC fields, but some interdisciplinary areas, like nanoscience, required more nuanced alignment. I annotated overlaps and interdisciplinary links where needed. While the LoCC structure worked for traditional fields, it struggled with emerging hybrid categories.

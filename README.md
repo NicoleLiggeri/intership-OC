@@ -141,7 +141,26 @@ I am gradually making progress with this alignment. The progress has been saved 
 Not much to report for today. I completed yesterday's work and searched through the datasets for matches to enable reliable alignment (Norwegian Register - DOJA - ERA 2018). It was fairly tedious work—I could have created a script to automate it and probably saved about an hour. Tomorrow, I'll take a more "big-picture" look to draw general conclusions and fill out the alignment sheet. 
 I uploaded the updated file to the GitHub folder.
 
-## Day 11 (9/12/2024) - 5h
+## Day 12 (9/01/2025) - 5h
 I aligned the Nature Index journals with the Library of Congress Classification (LoCC). The Nature Index organizes journals into approximately 80 categories, and article-level topics are decided using an AI system that factors in parameters like metadata and citations. This AI-driven classification is open source for 12 months but doesn’t allow downloads, limiting long-term or detailed topic-level use.
 
-Many Nature Index categories correspond directly to LoCC fields, but some interdisciplinary areas, like nanoscience, required more nuanced alignment. I annotated overlaps and interdisciplinary links where needed. While the LoCC structure worked for traditional fields, it struggled with emerging hybrid categories.
+Many Nature Index categories correspond directly to LoCC fields, but some interdisciplinary areas, like nanoscience, required more nuanced alignment. I annotated overlaps and interdisciplinary links where needed.
+
+## Day 13 (10/01/2025) - 8h
+
+I worked on clarifying the differences between PubMed, MEDLINE, and PubMed Central. I reaport it to have a written reminder:
+- PubMed is a free resource that supports searching biomedical and life sciences literature, containing over 37 million references, including MEDLINE and other citations.
+- MEDLINE is a journal citation database managed by the National Library of Medicine, indexing over 5,200 scholarly journals and including MeSH terms for standardized indexing.
+- PubMed Central, launched in 2000, is a free archive for full-text biomedical and life sciences journal articles. If a citation appears in PubMed, it might include a link to PubMed Central for full-text access.  
+The distinction between MEDLINE and PubMed seems tied to quality assurance and economic factors. Being listed in MEDLINE is a mark of quality. For journal categories, the NLM Catalog provides the most detailed indexing and classification information.  
+
+I also explored other tools related to NLM. 
+- The NLM Catalog provides bibliographic data for journals and other records, and includes indexing terms like MeSH and Broad Subject Terms.
+- LocatorPlus is used for detailed records and circulation status but is less relevant for journal classification.
+- NCBI databases focus specifically on journals and seem the most useful for my work. It is part of the NLM Catalog
+
+Broad Subject Terms, used only for MEDLINE journals, are a subset of MeSH headings and provide limited but useful categorization. However, their coverage is far narrower than MeSH terms and since they are not used in PubMed I won't go deeper.
+
+I moved on to align SciELO and DOAJ. SciELO is an electronic publishing platform with 1,654 journals from 15 countries in Latin America and the Caribbean. Its journal labels are broad and limited in number, especially for humanities disciplines, with only six total labels assigned to journals. Some journals in SciELO are not listed in DOAJ, ERIH-PLUS, or other platforms, making it an interesting resource despite its constraints.  
+
+I began compiling additional journal lists for evaluation, including CORE, bioRxiv, and SSOAR. I’ve recorded these in an Excel file and plan to assess their relevance for classification and broader research in the coming days.

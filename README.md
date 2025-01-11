@@ -164,3 +164,11 @@ Broad Subject Terms, used only for MEDLINE journals, are a subset of MeSH headin
 I moved on to align SciELO and DOAJ. SciELO is an electronic publishing platform with 1,654 journals from 15 countries in Latin America and the Caribbean. Its journal labels are broad and limited in number, especially for humanities disciplines, with only six total labels assigned to journals. Some journals in SciELO are not listed in DOAJ, ERIH-PLUS, or other platforms, making it an interesting resource despite its constraints.  
 
 I began compiling additional journal lists for evaluation, including CORE, bioRxiv, and SSOAR. I’ve recorded these in an Excel file and plan to assess their relevance for classification and broader research in the coming days.
+
+## Day 14 (11/01/2025) - 2h
+
+Today, I continued my search for interesting databases. Many dead ends (many of the main databases are proprietary) – I documented everything in the Excel sheet, but there isn't much to report.  
+Among the most interesting findings:  
+- **ERIC**, a free database that provides access to educational research in the form of journal articles, research reports, conference papers, and more. The records are peer-reviewed and may include links to full-text articles. It primarily covers the field of Education.  
+- **Eldis**, which until June 2024 was a database aggregating articles on Global Science. The creators made the data available under a CC-BY license, but it doesn't use a rigorous taxonomy (which, incidentally, can only be viewed within the database itself and is not detailed in the documentation). It uses around 300 keywords.  
+- **Global Index Medicus**, by the World Health Organization. Interesting because it includes journals from non-Western regions. However, it uses MeSH for indexing articles and journals, which is the same system used by PubMed. This makes me think it feeds into PubMed, so it might not be worth spending too much time on it. However, an interesting lead emerged at the end of the search: I found a website linked to the WHO that seems to contain additional material. Worth exploring further.

@@ -14,7 +14,7 @@
 - I have updated the table with information related to Scimago, ERIH-PLUS, DBLP, PubMed, DOAJ. Except for Scimago, the other lists are published under CC BY or CC0.
 - I copied and saved the list of ERIH-Plus.
 
-# Day 4 and 5 (6/4/2024 - 7/4/2024) - 10h
+## Day 4 and 5 (6/4/2024 - 7/4/2024) - 10h
 I have delved into the topic of scientific literature classification to better define the methodology to follow in the subsequent weeks.
 
 Now I know that there are several ways to perform journal classification:
@@ -173,5 +173,16 @@ Among the most interesting findings:
 - **Eldis**, which until June 2024 was a database aggregating articles on Global Science. The creators made the data available under a CC-BY license, but it doesn't use a rigorous taxonomy (which, incidentally, can only be viewed within the database itself and is not detailed in the documentation). It uses around 300 keywords.  
 - **Global Index Medicus**, by the World Health Organization. Interesting because it includes journals from non-Western regions. However, it uses MeSH for indexing articles and journals, which is the same system used by PubMed. This makes me think it feeds into PubMed, so it might not be worth spending too much time on it. However, an interesting lead emerged at the end of the search: I found a website linked to the WHO that seems to contain additional material. Worth exploring further.
 
-## Day 15 (13/01/2025) - 5h
+## Day 15 (12/01/2025) - 5h
 Today, I continued my research with rather few results, to be honest. An interesting public archive is ScienceOpen.com. However, although it includes metadata related to the scientific subject matter, these are article-level labels. To clean up the Excel file from failed attempts, I created a new summary sheet. I also gathered quantitative data to take stock of the situation. In practice, so far, I seem to have found only about 12 public databases with relevant metadata (including those like ScienceOpen or VABB-SHW that are annotated at the article level). If there were no overlaps or conflations – which is impossible – I would currently cover about 80,000 journals: still far from covering OC.
+
+## Day 16 (13/01/2025) - 5h
+I analyzed CORE, which, according to 2023 data, is the largest open-access article aggregator, sourcing from over 10,000 platforms. CORE appears to offer a filter for selecting articles based on categories; however, as of 2023, these labels do not seem reliable enough to support internal statistics within CORE. The last study on disciplines dates back to 2021 and was initiated by Microsoft Academic before it was discontinued ([DOI](https://doi.org/10.1038/s41597-023-02208-w)).
+
+For this reason, I set CORE aside and analyzed NARCIS, which, according to the paper I read, should integrate into CORE. However, I later discovered that NARCIS was shut down in 2023, although its data can still be downloaded under a CC0 license. I looked at the files and found that NARCIS recorded the categories of its articles (in columns from `coverageX1` to `coverageX6`). Nonetheless, I decided to move on because I couldn’t find documentation explaining these categories, and I read that NARCIS was merged after its closure into the “Portal of Research Output from the Netherlands.”
+
+I then consulted this other database and found that it integrates into OpenAIRE. Specifically, it offers classification labels at the article level (and only at the article level) through the use of an AI algorithm. The classification follows the Frascati guidelines published by the OECD. I attempted an alignment with the Library of Congress Classification, but the unsatisfactory results led me to try a cross-reference with DOAJ. Again, the results were poor—I couldn’t find compatible articles, even after applying a filter to display only articles published in the Netherlands.
+
+I subsequently searched for other tools online and found the work of a researcher who developed a mapping between the OECD's revised Fields of Science and Technology (FoS) classification and the 2020 Australian and New Zealand Standard Research Classification (ANZSRC) ([link](https://figshare.com/articles/dataset/Mapping_OECD_s_Revised_Field_of_Science_and_Technology_FOS_Classification_to_Australian_and_New_Zealand_Standard_Research_Classification_ANZSRC_2020_Dimensions_/26491210?utm_source=chatgpt.com&file=48165955)).  
+
+Tomorrow, I plan to review this mapping further to evaluate it more thoroughly.

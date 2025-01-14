@@ -186,3 +186,13 @@ I then consulted this other database and found that it integrates into OpenAIRE.
 I subsequently searched for other tools online and found the work of a researcher who developed a mapping between the OECD's revised Fields of Science and Technology (FoS) classification and the 2020 Australian and New Zealand Standard Research Classification (ANZSRC) ([link](https://figshare.com/articles/dataset/Mapping_OECD_s_Revised_Field_of_Science_and_Technology_FOS_Classification_to_Australian_and_New_Zealand_Standard_Research_Classification_ANZSRC_2020_Dimensions_/26491210?utm_source=chatgpt.com&file=48165955)).  
 
 Tomorrow, I plan to review this mapping further to evaluate it more thoroughly.
+
+## Day 17 (14/01/2025) - 5h
+
+I decided to use the categories already developed for ERIH-PLUS to align with the OECD classification. Upon reviewing the CSV file with the complete list of its journals, I noticed that ERIH-PLUS saves them with both its internal categories and the OECD ones. While rechecking the file, I also discovered some oddities in the ERIH-PLUS database. For instance, for the "Journal of Gerontology," both series (A: Biological Sciences and Medical Sciences; B: Psychological Sciences and Social Sciences) are saved under the category "Psychology."
+
+In any case, the OECD classification appears much less granular than ERIH-PLUS. For example, the category "Sociology" corresponds to "Gender Studies," "Environmental Studies," "Anthropology," and "Sociology." To finalize the alignment between OECD and LCC, I used OpenAIRE and compared it with data from DOAJ.
+
+I tried to understand the purpose of the work I have been doing since OpenAIRE already seems to register categories and process them (using the OECD standard). Honestly, I couldn't find an answer. Perhaps not all articles have a subject assigned—but even in those cases, keywords are recorded, which OpenAIRE takes from the source databases. For instance, all articles registered in DOAJ as "Naval Science" don’t have a true OECD label, but in OpenAIRE, you can find “Naval Science” or the corresponding category in the registered keywords.
+
+I also aligned the arXiv labels to LCC.

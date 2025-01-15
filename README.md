@@ -203,9 +203,9 @@ I focused on searching for new databases. I began by distinguishing between ROAR
 The classification system in the first case relies on the Library of Congress system, while the second has a more generic classification system (I couldn’t find appropriate documentation on it).
 
 I then obtained limited results with other databases, search engines, or tools that lack discipline-based classifications (e.g., Europe PMC).
-AGRICOLA: It includes a list of journals theoretically connected to agriculture but also covering topics such as economics and education. However, I imagine they can all be classified as agriculture or related fields.
-HAL is a very interesting French database. It operates under a CC-BY license, offers an API system, and even includes a triple store network. The category network is quite dense, and I plan to analyze it further tomorrow.
-LA Referenciais a Spanish database, also under a CC-BY license. For now, its server is down.
-African Journals Online: This database includes a list of journals under CC-BY. The categories are quite varied, but the number of journals is relatively small, in the range of a few hundred (each journal can have up to three categories).
-bioRxiv is a preprint database in the field of biology. I am unsure how useful it might be, but I assume it could be relevant.
-SSOAR (Social Science Open Access Repository): All metadata in this database is under a CC0 license, but it is already integrated into OpenAIRE. Tomorrow, I’ll check whether the categories are incorporated as keywords or as subject fields in OpenAIRE. 
+- AGRICOLA: It includes a list of journals theoretically connected to agriculture but also covering topics such as economics and education. However, I imagine they can all be classified as agriculture or related fields.
+- HAL is a very interesting French database. It operates under a CC-BY license, offers an API system, and even includes a triple store network. The category network is quite dense, and I plan to analyze it further tomorrow.
+- LA Referenciais a Spanish database, also under a CC-BY license. For now, its server is down.
+- African Journals Online: This database includes a list of journals under CC-BY. The categories are quite varied, but the number of journals is relatively small, in the range of a few hundred (each journal can have up to three categories).
+- bioRxiv is a preprint database in the field of biology. I am unsure how useful it might be, but I assume it could be relevant.
+- SSOAR (Social Science Open Access Repository): All metadata in this database is under a CC0 license, but it is already integrated into OpenAIRE. Tomorrow, I’ll check whether the categories are incorporated as keywords or as subject fields in OpenAIRE. 

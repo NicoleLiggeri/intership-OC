@@ -196,3 +196,16 @@ In any case, the OECD classification appears much less granular than ERIH-PLUS. 
 I tried to understand the purpose of the work I have been doing since OpenAIRE already seems to register categories and process them (using the OECD standard). Honestly, I couldn't find an answer. Perhaps not all articles have a subject assigned—but even in those cases, keywords are recorded, which OpenAIRE takes from the source databases. For instance, all articles registered in DOAJ as "Naval Science" don’t have a true OECD label, but in OpenAIRE, you can find “Naval Science” or the corresponding category in the registered keywords.
 
 I also aligned the arXiv labels to LCC.
+
+## Day 18 (15/01/2025) - 5h
+
+I focused on searching for new databases. I began by distinguishing between ROAR and OpenROAR. The former is a repository database that allows for historical statistical analyses of repository growth, thus focusing on monitoring. The latter concentrates on providing an authoritative, accurate list of repositories with detailed information about policies, content types, and technologies used. 
+The classification system in the first case relies on the Library of Congress system, while the second has a more generic classification system (I couldn’t find appropriate documentation on it).
+
+I then obtained limited results with other databases, search engines, or tools that lack discipline-based classifications (e.g., Europe PMC).
+AGRICOLA: It includes a list of journals theoretically connected to agriculture but also covering topics such as economics and education. However, I imagine they can all be classified as agriculture or related fields.
+HAL is a very interesting French database. It operates under a CC-BY license, offers an API system, and even includes a triple store network. The category network is quite dense, and I plan to analyze it further tomorrow.
+LA Referenciais a Spanish database, also under a CC-BY license. For now, its server is down.
+African Journals Online: This database includes a list of journals under CC-BY. The categories are quite varied, but the number of journals is relatively small, in the range of a few hundred (each journal can have up to three categories).
+bioRxiv is a preprint database in the field of biology. I am unsure how useful it might be, but I assume it could be relevant.
+SSOAR (Social Science Open Access Repository): All metadata in this database is under a CC0 license, but it is already integrated into OpenAIRE. Tomorrow, I’ll check whether the categories are incorporated as keywords or as subject fields in OpenAIRE. 

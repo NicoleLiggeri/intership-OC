@@ -209,3 +209,6 @@ I then obtained limited results with other databases, search engines, or tools t
 - African Journals Online: This database includes a list of journals under CC-BY. The categories are quite varied, but the number of journals is relatively small, in the range of a few hundred (each journal can have up to three categories).
 - bioRxiv is a preprint database in the field of biology. I am unsure how useful it might be, but I assume it could be relevant.
 - SSOAR (Social Science Open Access Repository): All metadata in this database is under a CC0 license, but it is already integrated into OpenAIRE. Tomorrow, I’ll check whether the categories are incorporated as keywords or as subject fields in OpenAIRE. 
+
+## Day 19 (16/01/2025) - 5h
+Contrary to expectations, OpenAIRE does not register the SSOAR categories either as keywords or as categories. I have therefore proceeded with the alignment to the LCC. Although it is a database focused on social sciences, it also includes other disciplines. I attempted to use DOAJ for the alignment, but since they operate on different levels (DOAJ on journals, SSOAR on articles — although it collects them within journals), the attempt was eventually abandoned. For this reason, at present (with a few exceptions), the alignment is only based on a comparison of the label names.

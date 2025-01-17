@@ -212,3 +212,14 @@ I then obtained limited results with other databases, search engines, or tools t
 
 ## Day 19 (16/01/2025) - 5h
 Contrary to expectations, OpenAIRE does not register the SSOAR categories either as keywords or as categories. I have therefore proceeded with the alignment to the LCC. Although it is a database focused on social sciences, it also includes other disciplines. I attempted to use DOAJ for the alignment, but since they operate on different levels (DOAJ on journals, SSOAR on articles — although it collects them within journals), the attempt was eventually abandoned. For this reason, at present (with a few exceptions), the alignment is only based on a comparison of the label names.
+
+## Day 20 (17/01/2025) - 5h
+
+Materials available on bioRxiv are also found on OpenCitations (see, for example, the preprint with DOI 10.1016/j.jinsphys.2014.05.025). However, it is important to note that some of these preprints, like that one, have subsequently become articles and are now indexed in PubMed (so maybe that's why they are in OC now). In PubMed, these articles include MeSH terms, which are significantly more comprehensive compared to the labels bioRxiv might offer. For example, the article titled “Amino acid and carbohydrate tradeoffs by honey bee nectar foragers and their implications for plant-pollinator interactions” has a unique label on bioRxiv, which corresponds to “Plant Biology.” In PubMed, the labels are much more detailed: “Amino Acids / physiology; Animals; Bees / physiology*; Dietary Carbohydrates; Flight, Animal; Food Preferences*; Homing Behavior; Nutritional Physiological Phenomena*; Plant Nectar / physiology*; Pollination; Sucrose.”
+
+Some preprints are in the Pubmed database (registered as preprints) but not all preprints present on PubMed are also included in OpenCitations. For example, the preprint with DOI 10.1101/2024.06.05.597576 is indexed in PubMed as a preprint, with a clear mention of its origin from bioRxiv - still no mention in OC. On the other hand, not all biooRxiv preprints, even the older ones, are present in PubMed, however some are found in OpenCitations, such as the preprint with DOI 10.1101/017806. Therefore, it seems useful to collect this category of articles and preprints to better understand their distribution and indexing across bioRxiv, PubMed, and OpenCitations.
+
+Today, I have worked on a possible alignment between bioRxiv and OpenCitations, hoping it might be helpful. 
+
+I have once again tried to address the alignment between MeSH terms and LCC (using DOAJ) but without significant results.
+

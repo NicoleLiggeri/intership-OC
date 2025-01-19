@@ -223,3 +223,23 @@ Today, I have worked on a possible alignment between bioRxiv and OpenCitations, 
 
 I have once again tried to address the alignment between MeSH terms and LCC (using DOAJ) but without significant results.
 
+
+
+## Day 21 (19/01/2025) - 5h
+
+I got lost reading the OpenAlex documentation. OpenAlex offers CC-0 metadata. Among the metadata it makes available are those related to an article's topic, which are generated using NLP and DL techniques.  
+Not all articles in OpenAlex have been assigned a topic, as a minimum amount of data is required. Specifically, each article must at least have a title and an abstract (or at least a minimum number of citations).  
+
+OpenAlex was created to fill the void left by the discontinuation of Microsoft Academic Graph. OpenAlex has a system for classifying topics in research papers that leverages data from CWTS, a respected source for research classifications, which provides fine-grained, micro-level fields of study. They fine-tuned the multilingual BERT (mBERT) for this purpose. The system incorporates key features such as paper titles, abstracts, journal names, and citation networks. Particularly interesting was the use of "gold citations," a curated set of influential references that enrich predictions. This approach enhances the model’s ability to classify works even when textual data is limited or absent, a common challenge in multilingual and non-English contexts.  
+Performance evaluations show the model’s strength in predicting topics under diverse conditions, with accuracy improving as the availability of input features increases. The system adapts well to real-world scenarios, where data may be incomplete, demonstrating resilience and versatility. However, challenges persist, particularly with sparsely populated clusters and ambiguities in topic assignments.  
+
+I then focused on ScienceOpen.com to find documentation related to how they manage metadata for article categories. There’s no trace of documentation anywhere. I have to assume that authors themselves assign them.  
+
+After that, I attempted to align MeSH with LCC again. A disaster, though somewhat more effective. This time I’m searching for all the medical subcategories under LCC (letter R) in DOAJ journals. Many of these subcategories are never used even once, but for those that are, I’m trying to collect as many different labels as possible. I’m especially focused on journals in DOAJ that fall exclusively under the specific category I’m studying, to avoid confusion among MeSH terms. For each LCC subject, I consider at least three journals and aim to record all their MeSH terms from PubMed.  
+
+Concerns about this approach:  
+- If an LCC category isn’t used in DOAJ, it doesn’t mean it’s ineffective for describing certain MeSH terms.  
+- If a journal indexed under a specific LCC category has certain MeSH terms, it doesn’t mean those MeSH terms can only be used as equivalents of that category. For example, broad categories like Pathology: the MeSH term *Malaria* might consistently correspond to Pathology, but another term like *Microbiological Phenomena* could be used in one context to describe a journal in Pathology, and in another to describe a Biological category unrelated to the human body or diseases.  
+
+Honestly, this seems like an exercise in futility. It’s about mapping a vast amount of data, and this should be done empirically with computational methods. A manually conducted project like this can never be rigorous.  
+

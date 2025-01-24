@@ -246,3 +246,5 @@ Concerns about this approach:
 
 Honestly, this seems like an exercise in futility. It’s about mapping a vast amount of data, and this should be done empirically with computational methods. A manually conducted project like this can never be rigorous.  
 
+## Day 21 (24/01/2025) - 8h
+Slow alignment Scimago - LCC: I am considering each subcategory of Scimago individually (around 300), as similar categories might be associated with different major categories in the LCC. Primarily, I am looking for literary correspondences between the categories of the two systems; only in complex cases I am considering comparison through Doaj.

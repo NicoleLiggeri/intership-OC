@@ -248,3 +248,6 @@ Honestly, this seems like an exercise in futility. It’s about mapping a vast a
 
 ## Day 21 (24/01/2025) - 8h
 Slow alignment Scimago - LCC: I am considering each subcategory of Scimago individually (around 300), as similar categories might be associated with different major categories in the LCC. Primarily, I am looking for literary correspondences between the categories of the two systems; only in complex cases I am considering comparison through Doaj.
+
+##Day 22 (25/01/2025) - 7h
+Almost completed alignment with SCImago. Uncertain about how to proceed; I’m not sure that the comparison with DOAJ is always effective. SCImago often includes many more categories, which creates noise. Moreover, there are direct correspondences between LCC and SCImago labels, but I don’t always find them reflected in the database comparison. Therefore, I prefer to record the direct correspondences but, during alignment, I imagine I’ll proceed by considering only the more general ones.

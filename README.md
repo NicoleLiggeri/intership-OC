@@ -254,3 +254,16 @@ Almost completed alignment with SCImago. Uncertain about how to proceed; I’m n
 
 ## Day 23 (28/01/2025) - 7h
 I have completed the alignment with Scimago. I retrieved the mapping files for OECD-Frascati and WoS. I reviewed the SKOS-JSON files from the Library of Congress. I have proposed a new approach for MeSH terms; alternatively, I am considering using the broad subject terms, which are the discipline labels used exclusively for Medline journals.
+
+## Day 24 (29/01/2025) - 7h
+I’m still making no progress with MeSH. I decided to take a look at the [SKOS ontology](https://www.w3.org/TR/skos-reference/#intro). I checked all the most relevant properties. In particular, `skos:mappingRelated` is used to map similarities between different vocabularies. Its subproperties include `skos:relatedMatch`, `skos:closeMatch`, `skos:broadMatch`, and `skos:narrowMatch`.  
+In my case, `skos:narrowMatch` could be particularly useful, as it links a more general term to a less general one.  
+Perhaps it is more convenient to use `skos:relatedMatch`, `skos:closeMatch`, or `skos:exactMatch` in the case of a direct similarity between two terms. If the first one is too generic—ehm—and could be used, for example, to establish a link between "oviparous" and "egg," the second one seems more suitable because it establishes a more direct similarity.  
+The advantage of using `skos:closeMatch` instead of `skos:exactMatch` is that the former is intransitive, making it safer to use in my case. Intransitive means that if A `skos:closeMatch` B and B `skos:closeMatch` C, nothing can be inferred about the relationship between A and C.  
+Then, I found an [article](https://campus.dariah.eu/resource/posts/controlled-vocabularies-and-skos#skos-checklist) that is useful not only for providing an overview of SKOS but also for learning about common mistakes in vocabulary creation, as well as tools and libraries for building and validating results.  
+Next step: converting or collecting the vocabularies I found into Turtle files.
+
+## Day 25 (30/01/2025) - 6h
+I organized the vocabularies I collected into CSV files. I converted the file into Turtle format using a Python script and used the SKOS vocabulary to define the hierarchies between terms.  
+I gathered OECD, SCIelo, Scopus, ANZSRC, the Norwegian Register, and ERIH-Plus.  
+I used `Skosify.py` and [SKOS Play] (https://skos-play.sparna.fr/skos-testing-tool/) to verify that the formatting was correct.

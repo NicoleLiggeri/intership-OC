@@ -267,3 +267,16 @@ Next step: converting or collecting the vocabularies I found into Turtle files.
 I organized the vocabularies I collected into CSV files. I converted the file into Turtle format using a Python script and used the SKOS vocabulary to define the hierarchies between terms.  
 I gathered OECD, SCIelo, Scopus, ANZSRC, the Norwegian Register, and ERIH-Plus.  
 I used `Skosify.py` and [SKOS Play] (https://skos-play.sparna.fr/skos-testing-tool/) to verify that the formatting was correct.
+
+## Day 26 (31/01/2025) - 6h
+I had to proceed with the actual alignment, starting from the most generic classes and then establishing `closeMatch` relationships between the subcategories. I began by searching everywhere for the complete vocabulary file from the Library of Congress. I couldn't find it anywhere. So, I retrieved all the files and combined them together.  
+
+This is where the problems started. First of all, when I ran the file through the SKOS testing tool, it showed a series of issues, including “Disjoint Labels Violation,” “Missing Labels,” and “Overlapping Labels.” These problems cannot be attributed to the way I manipulated the data in Python but rather seem to originate from the original files.  
+However, the most serious issue was something I only realized later: **none of the vocabulary terms are defined as `skos:Concept`, not even the leaves of the hierarchy**. A major oversight, I know. Instead, they are mostly structured as collections, or their type is simply not specified.  
+
+This would still have been a valid approach if it weren’t for the fact that the SKOS ontology documentation clearly states that **any relationship in SKOS is dependent on the conceptual nature of the entities involved**:  
+
+> “The domain and range of the SKOS semantic relation properties is `skos:Concept`. Therefore, if any of the SKOS semantic relation properties (e.g., `skos:narrower`) are used to link to or from a collection, the graph will not be consistent with the SKOS data model.”  
+
+So, the choice is between **creating a new file**—one that is different from those provided by the Library of Congress—or violating the principles of the ontology. Furthermore, creating a new file doesn’t entirely bypass the issue, because the higher hierarchical levels would still be collections, meaning they **still** couldn’t have relationships.  
+The best solution would probably be to create two separate files, depending on whether the alignment is done at the macro-category level or at the subcategory level.

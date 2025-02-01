@@ -280,3 +280,17 @@ This would still have been a valid approach if it weren’t for the fact that th
 
 So, the choice is between **creating a new file**—one that is different from those provided by the Library of Congress—or violating the principles of the ontology. Furthermore, creating a new file doesn’t entirely bypass the issue, because the higher hierarchical levels would still be collections, meaning they **still** couldn’t have relationships.  
 The best solution would probably be to create two separate files, depending on whether the alignment is done at the macro-category level or at the subcategory level.
+
+## Day 27 (01/02/2025) - 7h
+Today, I reconsidered my options with greater clarity. I hypothesized the possibility of using *skos:member* for alignment and adding to the collection’s members concepts that are outside that vocabulary. My strategy would have played entirely in the gray areas of legality—nothing about this improper use of the property is explicitly stated in the documentation.  
+
+Then I decided that I am better than that and resigned myself to annotation at the second hierarchical level.  
+The second level, despite not being a leaf level in the hierarchy, is not explicitly defined as a collection, so I was able to treat it as an *skos:Concept* and use the Mapping Properties.  
+
+At this point, the problem is that, for the sake of simplification in the alignment, I often did not link categories to the second hierarchical level but to the first. To address this issue, I realized that in many cases, I could use the “General” category, which is included in the Collection a significant number of times. For all other cases, I decided that, in most instances, my judgment is sufficient to determine which subcategories are the closest match to the vocabulary.  
+
+However, I still encountered some difficulties, such as the case of Musicology, which I wasn’t sure where to place, so I added it to all of Music’s subcategories. Or Linguistics and Literature, which I can no longer group together—I'm still deciding how to handle this case. I’m considering using *skos:broaderMatch*, but I haven’t yet decided whether it’s the right approach.  
+
+I’ve more or less aligned the first half of the LCC Collections. In the meantime, doubts about the alignment have started to arise, so I’ll have to review everything before submitting it.  
+
+Also, only halfway through did it occur to me that, instead of labels, I probably should have created numerical IDs for all vocabularies. Well, too late. I’ll ask if it’s necessary.

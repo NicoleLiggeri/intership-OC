@@ -294,3 +294,6 @@ However, I still encountered some difficulties, such as the case of Musicology, 
 I’ve more or less aligned the first half of the LCC Collections. In the meantime, doubts about the alignment have started to arise, so I’ll have to review everything before submitting it.  
 
 Also, only halfway through did it occur to me that, instead of labels, I probably should have created numerical IDs for all vocabularies. Well, too late. I’ll ask if it’s necessary.
+
+## Day 28 (02/02/2025) - 5h
+Today, I completed the SKOS alignment and added WoS, which I had forgotten. I reconsidered the possibility of using `skos:narrowMatch` and  `skos:broaderMatch`. For example, "Philosophy, Ethics, and Religion" from the OECD will be excluded if I won't use `skos:broaderMatch`.

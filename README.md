@@ -297,3 +297,6 @@ Also, only halfway through did it occur to me that, instead of labels, I probabl
 
 ## Day 28 (02/02/2025) - 5h
 Today, I completed the SKOS alignment and added WoS, which I had forgotten. I reconsidered the possibility of using `skos:narrowMatch` and  `skos:broaderMatch`. For example, "Philosophy, Ethics, and Religion" from the OECD will be excluded if I won't use `skos:broaderMatch`.
+
+## Day 29 (03/02/2025) - 5h
+I have double-checked all the alignments to confirm that I haven't missed anything relevant. I have decided that `skos:narrowMatch` is not useful in my case, and in fact, I'm not even sure anymore that I have chosen the right approach for the alignment. I have started aligning PubMed using the broad terms. The broad terms have much more limited coverage because they refer only to Medline; however, they are much more manageable in the alignment.
